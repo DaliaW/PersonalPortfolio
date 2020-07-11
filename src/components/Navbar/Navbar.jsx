@@ -28,13 +28,13 @@ const navbar = () => {
   </Link>
   </a>
       <a className="myA" href="#about">
-    <Link to="about" smooth duration={1000}><h3 className="abt_txt" >About</h3></Link>
+    <Link to="about" smooth duration={1000}>About</Link>
       </a>
       <a className="myA" href="#projects">
-    <Link to="projects" smooth duration={1000}><h3 className="proj_txt"> Projects</h3></Link>
+    <Link to="projects" smooth duration={1000}> Projects</Link>
    </a>
     <a className="myA" href="#contact">
-    <Link to="contact" smooth duration={1000}><h3 className="con_txt">Contact</h3></Link>
+    <Link to="contact" smooth duration={1000}>Contact</Link>
     </a>
 
     
