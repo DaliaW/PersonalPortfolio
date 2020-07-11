@@ -1,0 +1,31 @@
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgba(8, 46, 100, 0.945);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Navbar links */
+#navbar .myA {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 13px;
+  text-decoration: none;
+}
+
+#navbar .myA:hover{
+  background: rgb(97, 144, 247);
+}
+
+.topnav .icon{
+  display: none;
+}
+
+.main{
+  margin-top: 30px;
+}

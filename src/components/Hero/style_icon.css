@@ -1,0 +1,70 @@
+
+div.icons{
+height: 5%;
+}
+a.github{
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+  
+}
+a.linkedin{
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 25px;
+  
+}
+a.behance{
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 45px;
+  
+}
+div.icons{
+    text-align: left;
+}
+a.behance :hover {
+  transform: translateY(-2px);
+}
+a.linkedin :hover {
+  transform: translateY(-2px);
+}
+a.github :hover {
+  transform: translateY(-2px);
+}
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: bottom;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 5.0deg) }
+   10% { transform: rotate(20.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(20.0deg) }
+   40% { transform: rotate(-8.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+h2.motto{
+  font-size: 25px;
+  font-weight: bolder;
+}
+h1.greet{
+  align-items: left;
+  font-weight: bold;
+  text-align: left;
+  font-size: 50px;
+}
+
+
+
+

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#code1{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code2{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code3{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code4{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code5{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code6{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code7{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code8{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#code9{
+    animation-name: code;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+#Vector_16{
+    animation-name: codev;
+      animation-duration: 2000ms ;
+      animation-fill-mode: forwards infinite;
+}
+
+@keyframes codev{
+    0%{
+      opacity: 1;
+      transform: rotateX(1deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    
+  }
+
+
+@keyframes code{
+    0%{
+      opacity: 1;
+      transform: rotateX(40deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    
+  }
+
+@keyframes smile{
+    0% { transform: scaleX(1); }
+    80%{transform: scaleY(1.5); }
+    100%{transform: scaleZ(1.5); }
+
+    
+}
+
+@keyframes plants{
+    0% { transform: rotate(  0.0deg) }
+    10%{ transform: rotate(-1.0deg) }
+    20% { transform: rotate(  0.0deg) }
+    30%{ transform: rotate(1.0deg) }
+}
+
+#leavesg1{
+    animation: plant2 2s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#leavesg2{
+    animation: plant2 3s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes plant2{
+    0% { transform: rotate(  0.0deg) }
+    10%{ transform: rotate(-1.0deg) }
+    20% { transform: rotate(  0.0deg) }
+    30%{ transform: rotate(3.0deg) }
+}
+
+@keyframes code{
+    0%{
+      opacity: 1;
+      transform: rotateX(40deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    
+  }
+
+#legleft1{
+    animation: plant2 2.5s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#legleft2{
+    animation: plant2 3.5s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#legmovin{
+    animation: plant2 2.5s ease infinite;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+
+#leftarm1{
+    animation: plant2 8s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#head1{
+    animation: plant2 5s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+

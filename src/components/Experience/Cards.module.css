@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(253, 250, 250);
+}
+
+.container{
+    margin: 50px 5;
+}
+
+h2.languages{
+    text-align: center;
+}
+
+h2.tools{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+div.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    margin: 0px;
+    content: "";
+    clear: both;
+    display: inline;
+    background-color: khaki;
+  }
+
+  div.container {
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+.card{
+    margin: 0 2% !important
+}
+
+
+
+.languages{
+    border-bottom: 10px solid rgba(100, 113, 228, 0.678);
+
+}
+
+.tools{
+    border-bottom: 10px solid rgba(100, 113, 228, 0.678);
+
+}
+
