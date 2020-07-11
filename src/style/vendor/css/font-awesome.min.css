@@ -584,8 +584,12 @@
 }
 .fa-linkedin-square:before {
   content: '\f08c';
-  justify-content: center;
-  align-self: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0;
 }
 .fa-thumb-tack:before {
   content: '\f08d';
