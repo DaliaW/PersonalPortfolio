@@ -12,7 +12,6 @@
  // clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   border-bottom: 4px;
   padding-bottom: 5%;
-  border-radius: 1em;
 
   @include respond(tab-land) {
     height: 100%;
