@@ -72,7 +72,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href="https://drive.google.com/file/d/10ch85oVvE6DXKtfhZ1B5HX0FsJuDQNox/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1I3-lfJTSYxIPWrEq5zzKl3sNVS8LRbny/view?usp=sharing"
                     >
                       Resume
                     </a>
