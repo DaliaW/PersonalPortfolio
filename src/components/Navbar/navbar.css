@@ -16,6 +16,7 @@
   text-align: center;
   padding: 4px 13px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #navbar .myA:hover{
