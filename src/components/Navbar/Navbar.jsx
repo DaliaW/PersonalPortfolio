@@ -20,7 +20,7 @@ const navbar = () => {
 
 
 <div class="topnav" id="myTopnav">
-  <a className="myA" href="#hero">
+  <a className="myA">
   <Link to="hero" smooth duration={1000}>
   
   <svg width="50" height="15" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,13 +43,13 @@ const navbar = () => {
   
   </Link>
   </a>
-      <a className="myA" href="#about">
+      <a className="myA">
     <Link to="about" smooth duration={1000}>About</Link>
       </a>
-      <a className="myA" href="#projects">
+      <a className="myA">
     <Link to="projects" smooth duration={1000}> Projects</Link>
    </a>
-    <a className="myA" href="#contact">
+    <a className="myA">
     <Link to="contact" smooth duration={1000}>Contact</Link>
     </a>
 
