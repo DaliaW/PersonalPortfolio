@@ -75,7 +75,7 @@ const Header = () => {
 
      <Container> 
 
-       {isMobile? "" : 
+        
       <div class="svg-container">
     <svg viewBox="0 0 748 669" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="hello" clip-path="url(#clip0)">
@@ -343,7 +343,7 @@ const Header = () => {
 </defs>
 </svg>    
 </div>
-}
+
 
     </Container>
     </section>
