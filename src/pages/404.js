@@ -23,12 +23,12 @@ export default () => {
         <Container>
           <Fade bottom duration={1000} delay={500} distance="30px">
             <h1 class="err404">
-            404
+            404 page not found!
             </h1>
             
             <p class="err">
               <div class="err"> Oops!! looks like you're lost in space! </div>
-              <div class="err"> maybe this page doesn't exist or hiding in the quarantine! </div>
+              <div class="err"> maybe this page doesn't exist or hiding in quarantine! </div>
              <div class="err"> Or maybe I'm still working on it! </div>
              <div class="err"> You better go back home </div>{' '}</p>
               <Fade bottom duration={1000} delay={1000} distance="30px">

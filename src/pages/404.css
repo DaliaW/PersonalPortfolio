@@ -13,15 +13,7 @@
     
   }
 
-  .err404{
-    color: #000000;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 55pt;
-    text-align: center;
-    text-shadow: darkgray;
-    font-weight: bold;
-  }
-
+ 
 
 
   @keyframes flickerAnimation {
