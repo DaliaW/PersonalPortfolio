@@ -1,45 +1,4 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
-import { Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import { headData } from '../mock/data';
-import styles from '../pages/404.css';
-
-export default () => {
-  const { lang } = headData;
-
-  return (
-    <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Page not found</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content="Page not found" />
-      </Helmet>
-      <section id="hero" className="jumbotron">
-        <Container>
-          <Fade bottom duration={1000} delay={500} distance="30px">
-            <h1 class="err404">
-            404
-            </h1>
-            
-            <p class="err">
-              <div class="err"> Oops!! looks like you're lost in space! </div>
-              <div class="err"> maybe this page doesn't exist or hiding in the quarantine! </div>
-             <div class="err"> Or maybe I'm still working on it! </div>
-             <div class="err"> You better go back home </div>{' '}</p>
-              <Fade bottom duration={1000} delay={1000} distance="30px">
-            <p className="hero-cta justify-content-center">
-              <Link className="cta-btn cta-btn--hero" to="/">
-                Let's go back!
-              </Link>
-            </p>
-          </Fade>
-              <div class="style">
-              <svg class="space"  viewBox="0 0 1300 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="404">
 <path id="Vector" d="M543.187 459.902C467.445 579.457 326.264 574.694 248.741 574.694C111.365 574.694 4.92188 474.844 4.92188 331.54C4.92188 188.236 18.985 130.196 164.186 52.8117C615.612 -149.633 633.894 300 543.187 459.902Z" fill="#1D1C26"/>
 <g id="moon">
@@ -185,17 +144,3 @@ export default () => {
 </clipPath>
 </defs>
 </svg>
-
-
-
-
-
-              </div>
-            
-          </Fade>
-          
-        </Container>
-      </section>
-    </>
-  );
-};

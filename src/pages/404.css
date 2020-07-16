@@ -1,0 +1,138 @@
+
+.space{
+    float: center;
+}
+
+.err {
+    color: #000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17pt;
+    text-align: center;
+    text-shadow: darkgray;
+    font-weight: bold;
+    
+  }
+
+  .err404{
+    color: #000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 55pt;
+    text-align: center;
+    text-shadow: darkgray;
+    font-weight: bold;
+  }
+
+
+
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  #star1 {
+     -webkit-animation: flickerAnimation 5s infinite;
+     -moz-animation: flickerAnimation 5s infinite;
+     -o-animation: flickerAnimation 5s infinite;
+      animation: flickerAnimation 5s infinite;
+  }
+  #star2 {
+    -webkit-animation: flickerAnimation 4s infinite;
+    -moz-animation: flickerAnimation 4s infinite;
+    -o-animation: flickerAnimation 4s infinite;
+     animation: flickerAnimation 4s infinite;
+ }
+ #star3 {
+    -webkit-animation: flickerAnimation 3s infinite;
+    -moz-animation: flickerAnimation 3s infinite;
+    -o-animation: flickerAnimation 3s infinite;
+     animation: flickerAnimation 3s infinite;
+ }
+ #star4 {
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+ }
+ #star5 {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+     animation: flickerAnimation 1s infinite;
+ }
+ #star6 {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+     animation: flickerAnimation 1s infinite;
+ }
+
+ #star7 {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+     animation: flickerAnimation 1s infinite;
+ }
+ #star8 {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+     animation: flickerAnimation 1s infinite;
+ }
+ #star9 {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+     animation: flickerAnimation 1s infinite;
+ }
+ #star10 {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+     animation: flickerAnimation 1s infinite;
+ }
+
+ #astro{
+    animation: float 8s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+ }
+
+ #planet1{
+    animation: float 25s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+ }
+
+ #planet2{
+    animation: float 35s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+ }
+
+ #planet3{
+    animation: float 25s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+ }
+
+ #planet4{
+    animation: float 30s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+ }
+
