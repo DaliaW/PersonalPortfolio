@@ -3,6 +3,9 @@
     float: center;
 }
 
+.err404{
+    margin: 1in;
+}
 .err {
     color: #000000;
     font-family: 'Nunito Sans', sans-serif;

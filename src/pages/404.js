@@ -37,7 +37,7 @@ export default () => {
             </p>
           </Fade>
               <div class="style">
-              <svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg  viewBox="-300 5 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="404">
 <path id="Vector" d="M543.265 463.526C467.523 583.082 326.342 578.319 248.819 578.319C111.443 578.319 5 478.468 5 335.164C5 191.86 19.0631 133.82 164.265 56.4359C615.69 -146.009 633.972 303.624 543.265 463.526Z" fill="#1D1C26"/>
 <g id="moon">
