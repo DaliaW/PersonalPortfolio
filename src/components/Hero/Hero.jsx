@@ -63,10 +63,10 @@ const Header = () => {
             </span>
           </p>
           </div>
-          <div className="icons"><a className="github" href="https://github.com/DaliaW/" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" alt="Github" width="30" height="30"></img></a>
-
+          <div className="icons">
+          <a className="github" href="https://github.com/DaliaW/" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" alt="Github" width="30" height="30"></img></a>
             <a className="linkedin" href="https://www.linkedin.com/in/dalia-walid-63a74b190/" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-256.png" alt="LinkedIn" width="30" height="30"></img></a> 
-
+            {/* <a className="Twitter" href="https://twitter.com/DaliaWalid9" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" alt="twitter" width="30" height="30"></img></a> */}
             <a className="behance" href="https://www.behance.net/daliaWalid/" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/behance-128.png" alt="Behance" width="30" height="30"></img></a>
             </div>
         </Fade>
