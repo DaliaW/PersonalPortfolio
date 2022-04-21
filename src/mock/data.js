@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'me.jpg',
+  img: 'me.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,21 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'proj1.jpg',
-    title: 'Corona Tracker',
-    info: 'Built this web App with React js, CSS, and HTML.It shows the number of infected, recovered and deaths of Covid-19 worldwide.',
-    info2: ' It contains real data statistics based on real data API.',
-    url: 'https://upbeat-elion-5d07ff.netlify.app/',
-    repo: 'https://github.com/DaliaW/Covid19-Tracker', // if no repo, the button will not show up
+    img: 'proj4.png',
+    title: 'LessonsARfun',
+    info: 'A web platform for teachers to create Augmented Reality lessons for their students.',
+    info2: ' It was build in React, Material-UI, ThreeJS, AFrame, Strapi and PostgreSQL.',
+    url: 'https://lessons-ar-fun.netlify.app/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'proj2.jpg',
-    title: 'Priority Do',
-    info: 'Priority Do is an android app built with kotlin.',
-    info2: 'The idea of the app is to add tasks and sort them based on priorities. the app is still in development',
-    url: 'https://github.com/DaliaW/Priority_do_Kotlin_App',
-    repo: 'https://github.com/DaliaW/Priority_do_Kotlin_App', // if no repo, the button will not show up
+    img: 'proj1.jpg',
+    title: 'Corona Tracker',
+    info: 'Built this web App with React js, CSS. It shows the number of infected, recovered and deaths of Covid-19 worldwide.',
+    info2: ' It contains real data statistics based on real data API.',
+    url: 'https://upbeat-elion-5d07ff.netlify.app/',
+    repo: 'https://github.com/DaliaW/Covid19-Tracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
