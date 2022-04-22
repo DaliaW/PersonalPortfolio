@@ -39,7 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'proj1.jpg',
     title: 'Corona Tracker',
-    info: 'Built this web App with React js, CSS. It shows the number of infected, recovered and deaths of Covid-19 worldwide.',
+    info:
+      'Built this web App with React js, CSS. It shows the number of infected, recovered and deaths of Covid-19 worldwide.',
     info2: ' It contains real data statistics based on real data API.',
     url: 'https://upbeat-elion-5d07ff.netlify.app/',
     repo: 'https://github.com/DaliaW/Covid19-Tracker', // if no repo, the button will not show up
@@ -70,7 +71,6 @@ export const footerData = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/dalia-walid-63a74b190/',
     },
-    
   ],
 };
 
