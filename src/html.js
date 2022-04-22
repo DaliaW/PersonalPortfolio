@@ -21,17 +21,18 @@ export default function HTML({
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
 
-<script
-  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-  crossorigin></script>
+        <script
+          src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+          crossorigin
+        ></script>
 
-<script
-  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-  crossorigin></script>
+        <script
+          src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+          crossorigin
+        ></script>
 
-<script>var Alert = ReactBootstrap.Alert;</script>
+        <script>var Alert = ReactBootstrap.Alert;</script>
         {headComponents}
-        
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}
